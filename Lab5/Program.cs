@@ -11,9 +11,9 @@ namespace Lab5
         static void Main(string[] args)
         {
             List<Good> ListGood = new List<Good>();
-            Sale book_Sale = new Sale("Book");
-            Sale journal_Sale = new Sale("Journal");
-            Sale notebook_Sale = new Sale("NoteBook");
+            Sale book_Sale = new Sale("Книга");
+            Sale journal_Sale = new Sale("Журнал");
+            Sale notebook_Sale = new Sale("Тетрадь");
 
             ListGood.Add(new Book(book_Sale, "Мастер и маргарита", 250, "Булгаков", "Роман", "Эксмо"));
             ListGood.Add(new Book(book_Sale, "Война и мир", 350, "Толстой", "Роман", "Эксмо"));
