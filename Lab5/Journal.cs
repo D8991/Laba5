@@ -18,7 +18,7 @@ namespace Lab5
         }
         public override void Get_Info()
         {
-            Console.WriteLine(" "+ Good_Name.ToString() + " " + Book_Title.ToString() + " " + Price.ToString() + " " + DataOfPublic.ToString());
+            Console.WriteLine("Наименование - "+ Good_Name.ToString() + "; Заголовок - " + Book_Title.ToString() + "; Цена - " + Price.ToString() + "; Дата выпуска - " + DataOfPublic.ToString());
 
         }
     }

@@ -23,7 +23,7 @@ namespace Lab5
         }
         public override void Get_Info()
         {
-            Console.WriteLine(" " + Good_Name.ToString() + "   " + Book_Title.ToString() + "  " + Price.ToString()+ "  " + Book_Author.ToString()+" "+Book_Genre.ToString()+"  " + Book_Publisher.ToString());
+            Console.WriteLine("Наименование - " + Good_Name.ToString() + "; Заголовок -  " + Book_Title.ToString() + "; Цена - " + Price.ToString()+ "; Автор - " + Book_Author.ToString()+"; Жанр -  "+Book_Genre.ToString()+"; Издательство -  " + Book_Publisher.ToString());
 
         }
     }

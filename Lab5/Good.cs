@@ -21,7 +21,7 @@ namespace Lab5
         }
         public virtual void Get_Info()
         {
-            Console.WriteLine(" " + Good_Name.ToString() + " " + Book_Title.ToString() + " " + Price.ToString());
+            Console.WriteLine("Наименование - " + Good_Name.ToString() + "; Заголовок - " + Book_Title.ToString() + "; Цена - " + Price.ToString());
 
         }
     }
